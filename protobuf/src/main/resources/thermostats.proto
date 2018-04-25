@@ -1,0 +1,14 @@
+package protobuf;
+
+option java_package = "com.nttdata.device.protobuf";
+option java_outer_classname = "ThermostatsProtos";
+
+message DeviceTelemetryData {
+  required double temperature = 1;
+  required double humidity = 2;
+}
+
+message Device {
+  repeated DeviceTelemetryData telemetryData = 1;  
+  required string deviceId = 2;
+}

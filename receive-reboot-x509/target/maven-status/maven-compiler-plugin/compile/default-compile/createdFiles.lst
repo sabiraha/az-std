@@ -1,0 +1,6 @@
+com\nttdata\azure\iot\device\ReceiveRebootX509$DirectMethodCallback.class
+com\nttdata\azure\iot\device\ReceiveRebootX509$DeviceTwinStatusCallback.class
+com\nttdata\azure\iot\device\ReceiveRebootX509$DirectMethodStatusCallback.class
+com\nttdata\azure\iot\device\ReceiveRebootX509$RebootDeviceThread.class
+com\nttdata\azure\iot\device\ReceiveRebootX509$PropertyCallback.class
+com\nttdata\azure\iot\device\ReceiveRebootX509.class

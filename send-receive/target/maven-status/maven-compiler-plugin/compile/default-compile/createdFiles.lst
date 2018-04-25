@@ -1,0 +1,5 @@
+com\nttdata\azure\iot\device\SendReceive$Counter.class
+com\nttdata\azure\iot\device\SendReceive$MessageCallback.class
+com\nttdata\azure\iot\device\SendReceive.class
+com\nttdata\azure\iot\device\SendReceive$EventCallback.class
+com\nttdata\azure\iot\device\SendReceive$MessageCallbackMqtt.class

@@ -1,0 +1,54 @@
+<!-- Copyright (c) Microsoft. All rights reserved. --><!-- Licensed under the MIT license. See LICENSE file in the project root for full license information. --><project>
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.nttdata.azure.iot.device</groupId>
+    <artifactId>device-identity-bulk-registration</artifactId>
+	<packaging>jar</packaging>
+    <version>1.0-SNAPSHOT</version>    
+    <name>Device Identity Bulk Registration - SAS</name>
+    <developers>
+        <developer>
+            <id>microsoft</id>
+            <name>Microsoft</name>
+        </developer>
+    </developers>
+    <parent>
+        <groupId>com.microsoft.azure.sdk.iot.samples</groupId>
+        <artifactId>iot-device-samples</artifactId>
+        <version>1.10.0</version>
+    </parent>
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+    
+	   <dependencies>
+	    <dependency>
+	      <groupId>junit</groupId>
+	      <artifactId>junit</artifactId>
+	      <version>3.8.1</version>
+	      <scope>test</scope>
+	    </dependency>
+		<dependency>
+		  <groupId>com.microsoft.azure.sdk.iot</groupId>
+		  <artifactId>iot-service-client</artifactId>
+		  <version>1.7.23</version>
+		</dependency>
+	  </dependencies>
+    
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-jar-plugin</artifactId>
+                <version>2.6</version>
+                <configuration>
+                    <archive>
+                        <manifest>
+                            <addClasspath>true</addClasspath>
+                            <mainClass>com.nttdata.azure.iot.device.DeviceIdentityBulkRegistration</mainClass>
+                        </manifest>
+                    </archive>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+</project>

@@ -1,0 +1,6 @@
+com\nttdata\azure\iot\device\ReceiveReboot.class
+com\nttdata\azure\iot\device\ReceiveReboot$DeviceTwinStatusCallback.class
+com\nttdata\azure\iot\device\ReceiveReboot$DirectMethodStatusCallback.class
+com\nttdata\azure\iot\device\ReceiveReboot$RebootDeviceThread.class
+com\nttdata\azure\iot\device\ReceiveReboot$DirectMethodCallback.class
+com\nttdata\azure\iot\device\ReceiveReboot$PropertyCallback.class

@@ -1,0 +1,6 @@
+com\nttdata\app\App$RebootDeviceThread.class
+com\nttdata\app\App$DeviceTwinStatusCallback.class
+com\nttdata\app\App$DirectMethodCallback.class
+com\nttdata\app\App$DirectMethodStatusCallback.class
+com\nttdata\app\App$PropertyCallback.class
+com\nttdata\app\App.class
